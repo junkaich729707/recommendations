@@ -146,7 +146,7 @@ def update_recommendation(recommendation_id):
 ######################################################################
 # DELETE A RECOMMENDATION
 ######################################################################
-@app.route("/recommendations/<id>", methods=["DELETE"])
+@app.route("/recommendations/<recommendation_id>", methods=["DELETE"])
 def delete_recommendation(recommendation_id):
     """
     Delete a Recommendation
